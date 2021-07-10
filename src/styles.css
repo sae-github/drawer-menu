@@ -5,6 +5,7 @@ body {
 a {
   text-decoration: none;
   color: #fff;
+  font-size: 20px;
 }
 
 li {
@@ -25,10 +26,8 @@ li {
   width: 50%;
   height: 100%;
   transform: translate(-100%);
-  transition:  0.2s;
+  transition: 0.3s;
 }
-
-
 
 .is-active {
   transform: translateX(0);
